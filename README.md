@@ -374,3 +374,12 @@ To improve existing agents or suggest new ones:
 2. Test thoroughly with real projects
 3. Document performance improvements
 4. Share successful patterns with the community
+
+## 🔗 Related Repositories & Credits
+
+This repository merges and adapts ideas and scripts from the following open-source projects. Huge thanks to the authors and communities behind them:
+
+- [contains-studio/agents](https://github.com/contains-studio/agents) — Original agent structure, examples, and documentation patterns used as a foundation and reference.
+- [wshobson/agents](https://github.com/wshobson/agents) — Additional agent scripts, formats, and ideas incorporated to create a more comprehensive set.
+
+If you find this useful, please consider supporting and crediting the original work by starring their repositories.
