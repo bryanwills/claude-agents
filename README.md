@@ -36,6 +36,11 @@ Agents are organized by department for easy discovery:
 
 ```
 agents/
+├── bonus/
+│   ├── joker.md
+│   ├── legal-advisor.md
+│   ├── mermaid-expert.md
+│   └── studio-coach.md
 ├── design/
 │   ├── brand-guardian.md
 │   ├── ios-developer.md
@@ -50,33 +55,69 @@ agents/
 │   └── whimsy-injector.md
 ├── engineering/
 │   ├── ai-engineer.md
+│   ├── api-designer.md
 │   ├── api-documenter.md
 │   ├── backend-architect.md
 │   ├── backend-typescript-architect.md
+│   ├── blockchain-developer.md
+│   ├── build-engineer.md
+│   ├── cloud-architect.md
+│   ├── csharp-developer.md
+│   ├── data-analyst.md
 │   ├── data-engineer.md
+│   ├── data-researcher.md
+│   ├── data-scientist.md
 │   ├── database-admin.md
 │   ├── database-optimizer.md
 │   ├── deployment-engineer.md
 │   ├── devops-automator.md
 │   ├── docs-architect.md
+│   ├── documentation-engineer.md
 │   ├── dx-optimizer.md
+│   ├── electron-pro.md
+│   ├── embedded-systems.md
+│   ├── fintech-engineer.md
 │   ├── frontend-developer.md
+│   ├── fullstack-developer.md
+│   ├── game-developer.md
+│   ├── git-workflow-manager.md
 │   ├── golang-engineer.md
+│   ├── graphql-architect.md
 │   ├── graphql-optimizer.md
+│   ├── iot-engineer.md
+│   ├── java-architect.md
 │   ├── javascript-engineer.md
+│   ├── knowledge-synthesizer.md
+│   ├── legacy-modernizer.md
+│   ├── llm-architect.md
+│   ├── machine-learning-engineer.md
+│   ├── microservices-architect.md
 │   ├── ml-engineer.md
 │   ├── mlops-engineer.md
 │   ├── mobile-app-builder.md
 │   ├── network-engineer.md
+│   ├── nextjs-developer.md
+│   ├── nlp-engineer.md
 │   ├── payment-integration.md
+│   ├── platform-engineer.md
+│   ├── postgres-pro.md
 │   ├── prompt-engineer.md
 │   ├── python-backend-engineer.md
+│   ├── quant-analyst.md
 │   ├── rapid-prototyper.md
+│   ├── react-specialist.md
+│   ├── refactoring-specialist.md
 │   ├── reference-builder.md
+│   ├── risk-manager.md
 │   ├── rust-engineer.md
+│   ├── search-specialist.md
+│   ├── spring-boot-engineer.md
+│   ├── sre-engineer.md
 │   ├── terraform-engineer.md
 │   ├── test-writer-fixer.md
-│   └── tutorial-engineer.md
+│   ├── tooling-engineer.md
+│   ├── tutorial-engineer.md
+│   └── websocket-engineer.md
 ├── marketing/
 │   ├── app-store-optimizer.md
 │   ├── content-creator.md
@@ -85,74 +126,127 @@ agents/
 │   ├── customer-support.md
 │   ├── growth-hacker.md
 │   ├── instagram-curator.md
+│   ├── market-researcher.md
 │   ├── reddit-community-builder.md
 │   ├── sales-automator.md
 │   ├── tiktok-strategist.md
 │   └── twitter-engager.md
 ├── product/
+│   ├── business-analyst.md
+│   ├── competitive-analyst.md
 │   ├── feedback-synthesizer.md
+│   ├── product-manager.md
+│   ├── research-analyst.md
 │   ├── sprint-prioritizer.md
+│   ├── trend-analyst.md
 │   └── trend-researcher.md
 ├── project-management/
+│   ├── agent-organizer.md
 │   ├── experiment-tracker.md
+│   ├── multi-agent-coordinator.md
+│   ├── project-manager.md
 │   ├── project-shipper.md
-│   └── studio-producer.md
+│   ├── studio-producer.md
+│   ├── task-distributor.md
+│   └── workflow-orchestrator.md
 ├── studio-operations/
 │   ├── analytics-reporter.md
 │   ├── finance-tracker.md
 │   ├── infrastructure-maintainer.md
 │   ├── legal-compliance-checker.md
 │   └── support-responder.md
-├── testing/
-│   ├── api-tester.md
-│   ├── debugger.md
-│   ├── devops-troubleshooter.md
-│   ├── error-detective.md
-│   ├── incident-responder.md
-│   ├── performance-benchmarker.md
-│   ├── senior-code-reviewer.md
-│   ├── test-automator.md
-│   ├── test-results-analyzer.md
-│   ├── tool-evaluator.md
-│   └── workflow-optimizer.md
-└── bonus/
-    ├── joker.md
-    ├── legal-advisor.md
-    ├── mermaid-expert.md
-    └── studio-coach.md
+└── testing/
+    ├── accessibility-tester.md
+    ├── api-tester.md
+    ├── architect-reviewer.md
+    ├── chaos-engineer.md
+    ├── code-reviewer.md
+    ├── compliance-auditor.md
+    ├── debugger.md
+    ├── devops-troubleshooter.md
+    ├── error-coordinator.md
+    ├── error-detective.md
+    ├── incident-responder.md
+    ├── penetration-tester.md
+    ├── performance-benchmarker.md
+    ├── performance-engineer.md
+    ├── performance-monitor.md
+    ├── qa-expert.md
+    ├── security-auditor.md
+    ├── senior-code-reviewer.md
+    ├── test-automator.md
+    ├── test-results-analyzer.md
+    ├── tool-evaluator.md
+    └── workflow-optimizer.md
 ```
 
 ## 📋 Complete Agent List
 
 ### Engineering Department (`engineering/`)
 - **ai-engineer** - Integrate AI/ML features that actually ship
-- **api-documenter** - Generate clear, accurate API documentation and examples
+- **api-designer** - Create robust and scalable API designs
+- **api-documenter** - Generate comprehensive API documentation
 - **backend-architect** - Design scalable APIs and server systems
 - **backend-typescript-architect** - Architect strongly typed backends with TypeScript
+- **blockchain-developer** - Develop blockchain and smart contract solutions
+- **build-engineer** - Optimize build systems and CI/CD pipelines
+- **cloud-architect** - Design cloud-native architectures
+- **csharp-developer** - Specialize in C# and .NET development
+- **data-analyst** - Analyze data and create insights
 - **data-engineer** - Build reliable data pipelines and ETL workflows
+- **data-researcher** - Conduct data research and analysis
+- **data-scientist** - Perform data analysis and build ML models
 - **database-admin** - Manage schemas, backups, migrations, and access
 - **database-optimizer** - Tune queries and indexes for performance
 - **deployment-engineer** - Automate build, release, and rollout workflows
 - **devops-automator** - Deploy continuously without breaking things
-- **docs-architect** - Design technical documentation systems and information architecture
+- **docs-architect** - Alias of documentation-engineer
+- **documentation-engineer** - Owns IA, API references, style guides, tutorials; activation keywords: api-documenter, docs-architect, reference-builder
 - **dx-optimizer** - Improve developer experience, tooling, and inner loops
+- **electron-pro** - Specialize in Electron desktop app development
+- **embedded-systems** - Develop embedded systems and firmware
+- **fintech-engineer** - Build financial technology solutions
 - **frontend-developer** - Build blazing-fast user interfaces
+- **fullstack-developer** - Develop full-stack applications
+- **game-developer** - Create games and interactive experiences
+- **git-workflow-manager** - Manage Git workflows and branching strategies
 - **golang-engineer** - Build reliable services and CLIs in Go
-- **graphql-optimizer** - Design performant GraphQL schemas and resolvers
+- **graphql-architect** - GraphQL schema, federation, N+1, subscriptions, caching; activation keyword: graphql-optimizer
+- **graphql-optimizer** - Optimize GraphQL performance and queries
+- **iot-engineer** - Develop IoT solutions and connected devices
+- **java-architect** - Design Java-based architectures
 - **javascript-engineer** - Ship high-quality JavaScript across the stack
+- **knowledge-synthesizer** - Synthesize information from multiple sources
+- **legacy-modernizer** - Modernize legacy systems and code
+- **llm-architect** - Design large language model architectures
+- **machine-learning-engineer** - Build ML systems and models
+- **microservices-architect** - Design microservices architectures
 - **ml-engineer** - Train, evaluate, and ship ML models to production
 - **mlops-engineer** - Operate, monitor, and scale ML in production
 - **mobile-app-builder** - Create native iOS/Android experiences
 - **network-engineer** - Design secure, reliable network topologies
+- **nextjs-developer** - Specialize in Next.js development
+- **nlp-engineer** - Develop natural language processing solutions
 - **payment-integration** - Implement Stripe/PayPal and recurring billing flows
+- **platform-engineer** - Build developer platforms and tools
+- **postgres-pro** - Specialize in PostgreSQL development
 - **prompt-engineer** - Design prompts, evals, and safety guardrails for LLMs
 - **python-backend-engineer** - Build Python services and APIs
+- **quant-analyst** - Perform quantitative analysis
 - **rapid-prototyper** - Build MVPs in days, not weeks
-- **reference-builder** - Create code references, styleguides, and examples
+- **react-specialist** - Specialize in React development
+- **refactoring-specialist** - Refactor and improve existing code
+- **reference-builder** - Alias of documentation-engineer
+- **risk-manager** - Manage technical and project risks
 - **rust-engineer** - Build safe, high-performance services in Rust
+- **search-specialist** - Implement search functionality
+- **spring-boot-engineer** - Specialize in Spring Boot development
+- **sre-engineer** - Manage site reliability engineering
 - **terraform-engineer** - Define infrastructure as code with Terraform
 - **test-writer-fixer** - Write tests that catch real bugs
+- **tooling-engineer** - Build developer tools and utilities
 - **tutorial-engineer** - Produce step-by-step developer tutorials
+- **websocket-engineer** - Implement real-time communication
 
 ### Product Department (`product/`)
 - **feedback-synthesizer** - Transform complaints into features
@@ -167,6 +261,7 @@ agents/
 - **customer-support** - Draft helpful responses, macros, and help center content
 - **growth-hacker** - Find and exploit viral growth loops
 - **instagram-curator** - Master the visual content game
+- **market-researcher** - Analyze market trends and opportunities
 - **reddit-community-builder** - Win Reddit without being banned
 - **sales-automator** - Generate outreach, sequences, and collateral
 - **tiktok-strategist** - Create shareable marketing moments
@@ -186,9 +281,14 @@ agents/
 - **whimsy-injector** - Add delight to every interaction
 
 ### Project Management (`project-management/`)
+- **agent-organizer** - Coordinate multi-agent workflows and task distribution
 - **experiment-tracker** - Data-driven feature validation
+- **multi-agent-coordinator** - Orchestrate complex multi-agent collaborations
+- **project-manager** - Plan, track, and deliver projects on time
 - **project-shipper** - Launch products that don't crash
 - **studio-producer** - Keep teams shipping, not meeting
+- **task-distributor** - Efficiently assign and track tasks across team members
+- **workflow-orchestrator** - Design and optimize team workflows and processes
 
 ### Studio Operations (`studio-operations/`)
 - **analytics-reporter** - Turn data into actionable insights
@@ -198,12 +298,23 @@ agents/
 - **support-responder** - Turn angry users into advocates
 
 ### Testing & Benchmarking (`testing/`)
+- **accessibility-tester** - Ensure applications are accessible to all users
 - **api-tester** - Ensure APIs work under pressure
+- **architect-reviewer** - Review system architecture and design decisions
+- **chaos-engineer** - Test system resilience through controlled chaos
+- **code-reviewer** - Provide thorough code reviews and feedback
+- **compliance-auditor** - Ensure compliance with industry standards and regulations
 - **debugger** - Systematically isolate and fix defects
 - **devops-troubleshooter** - Diagnose CI/CD and infrastructure issues
+- **error-coordinator** - Coordinate error handling and incident response
 - **error-detective** - Triage exceptions and trace root causes
 - **incident-responder** - Handle on-call incidents quickly and safely
+- **penetration-tester** - Identify security vulnerabilities through ethical hacking
 - **performance-benchmarker** - Make everything faster
+- **performance-engineer** - Optimize system performance and scalability
+- **performance-monitor** - Monitor and analyze system performance metrics
+- **qa-expert** - Ensure quality standards across development lifecycle
+- **security-auditor** - Audit security practices and identify vulnerabilities
 - **senior-code-reviewer** - Provide rigorous, actionable code reviews
 - **test-automator** - Build reliable automated test suites
 - **test-results-analyzer** - Find patterns in test failures
@@ -381,5 +492,6 @@ This repository merges and adapts ideas and scripts from the following open-sour
 
 - [contains-studio/agents](https://github.com/contains-studio/agents) — Original agent structure, examples, and documentation patterns used as a foundation and reference.
 - [wshobson/agents](https://github.com/wshobson/agents) — Additional agent scripts, formats, and ideas incorporated to create a more comprehensive set.
+- [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) — Broader catalog used to align names, define merges, and identify capability gaps.
 
 If you find this useful, please consider supporting and crediting the original work by starring their repositories.
