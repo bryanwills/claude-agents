@@ -6,14 +6,14 @@ A comprehensive collection of specialized AI agents designed to accelerate and e
 
 1. **Download this repository:**
    ```bash
-   git clone https://github.com/contains-studio/agents.git
+   git clone https://github.com/bryanwills/claude-agents
    ```
 
 2. **Copy to your Claude Code agents directory:**
    ```bash
    cp -r agents/* ~/.claude/agents/
    ```
-   
+
    Or manually copy all the agent files to your `~/.claude/agents/` directory.
 
 3. **Restart Claude Code** to load the new agents.
@@ -35,27 +35,58 @@ Agents are automatically available in Claude Code. Simply describe your task and
 Agents are organized by department for easy discovery:
 
 ```
-contains-studio-agents/
+agents/
 ├── design/
 │   ├── brand-guardian.md
+│   ├── ios-developer.md
+│   ├── mobile-developer.md
+│   ├── sql-pro.md
+│   ├── typescript-pro.md
 │   ├── ui-designer.md
+│   ├── ui-engineer.md
+│   ├── ui-ux-designer.md
 │   ├── ux-researcher.md
 │   ├── visual-storyteller.md
 │   └── whimsy-injector.md
 ├── engineering/
 │   ├── ai-engineer.md
+│   ├── api-documenter.md
 │   ├── backend-architect.md
+│   ├── backend-typescript-architect.md
+│   ├── data-engineer.md
+│   ├── database-admin.md
+│   ├── database-optimizer.md
+│   ├── deployment-engineer.md
 │   ├── devops-automator.md
+│   ├── docs-architect.md
+│   ├── dx-optimizer.md
 │   ├── frontend-developer.md
+│   ├── golang-engineer.md
+│   ├── graphql-optimizer.md
+│   ├── javascript-engineer.md
+│   ├── ml-engineer.md
+│   ├── mlops-engineer.md
 │   ├── mobile-app-builder.md
+│   ├── network-engineer.md
+│   ├── payment-integration.md
+│   ├── prompt-engineer.md
+│   ├── python-backend-engineer.md
 │   ├── rapid-prototyper.md
-│   └── test-writer-fixer.md
+│   ├── reference-builder.md
+│   ├── rust-engineer.md
+│   ├── terraform-engineer.md
+│   ├── test-writer-fixer.md
+│   └── tutorial-engineer.md
 ├── marketing/
 │   ├── app-store-optimizer.md
 │   ├── content-creator.md
+│   ├── content-marketer.md
+│   ├── context-manager.md
+│   ├── customer-support.md
 │   ├── growth-hacker.md
 │   ├── instagram-curator.md
 │   ├── reddit-community-builder.md
+│   ├── sales-automator.md
 │   ├── tiktok-strategist.md
 │   └── twitter-engager.md
 ├── product/
@@ -74,12 +105,20 @@ contains-studio-agents/
 │   └── support-responder.md
 ├── testing/
 │   ├── api-tester.md
+│   ├── debugger.md
+│   ├── devops-troubleshooter.md
+│   ├── error-detective.md
+│   ├── incident-responder.md
 │   ├── performance-benchmarker.md
+│   ├── senior-code-reviewer.md
+│   ├── test-automator.md
 │   ├── test-results-analyzer.md
 │   ├── tool-evaluator.md
 │   └── workflow-optimizer.md
 └── bonus/
     ├── joker.md
+    ├── legal-advisor.md
+    ├── mermaid-expert.md
     └── studio-coach.md
 ```
 
@@ -87,12 +126,33 @@ contains-studio-agents/
 
 ### Engineering Department (`engineering/`)
 - **ai-engineer** - Integrate AI/ML features that actually ship
+- **api-documenter** - Generate clear, accurate API documentation and examples
 - **backend-architect** - Design scalable APIs and server systems
+- **backend-typescript-architect** - Architect strongly typed backends with TypeScript
+- **data-engineer** - Build reliable data pipelines and ETL workflows
+- **database-admin** - Manage schemas, backups, migrations, and access
+- **database-optimizer** - Tune queries and indexes for performance
+- **deployment-engineer** - Automate build, release, and rollout workflows
 - **devops-automator** - Deploy continuously without breaking things
+- **docs-architect** - Design technical documentation systems and information architecture
+- **dx-optimizer** - Improve developer experience, tooling, and inner loops
 - **frontend-developer** - Build blazing-fast user interfaces
+- **golang-engineer** - Build reliable services and CLIs in Go
+- **graphql-optimizer** - Design performant GraphQL schemas and resolvers
+- **javascript-engineer** - Ship high-quality JavaScript across the stack
+- **ml-engineer** - Train, evaluate, and ship ML models to production
+- **mlops-engineer** - Operate, monitor, and scale ML in production
 - **mobile-app-builder** - Create native iOS/Android experiences
+- **network-engineer** - Design secure, reliable network topologies
+- **payment-integration** - Implement Stripe/PayPal and recurring billing flows
+- **prompt-engineer** - Design prompts, evals, and safety guardrails for LLMs
+- **python-backend-engineer** - Build Python services and APIs
 - **rapid-prototyper** - Build MVPs in days, not weeks
+- **reference-builder** - Create code references, styleguides, and examples
+- **rust-engineer** - Build safe, high-performance services in Rust
+- **terraform-engineer** - Define infrastructure as code with Terraform
 - **test-writer-fixer** - Write tests that catch real bugs
+- **tutorial-engineer** - Produce step-by-step developer tutorials
 
 ### Product Department (`product/`)
 - **feedback-synthesizer** - Transform complaints into features
@@ -102,15 +162,25 @@ contains-studio-agents/
 ### Marketing Department (`marketing/`)
 - **app-store-optimizer** - Dominate app store search results
 - **content-creator** - Generate content across all platforms
+- **content-marketer** - Plan campaigns and editorial calendars
+- **context-manager** - Maintain brand context, tone, and messaging
+- **customer-support** - Draft helpful responses, macros, and help center content
 - **growth-hacker** - Find and exploit viral growth loops
 - **instagram-curator** - Master the visual content game
 - **reddit-community-builder** - Win Reddit without being banned
+- **sales-automator** - Generate outreach, sequences, and collateral
 - **tiktok-strategist** - Create shareable marketing moments
 - **twitter-engager** - Ride trends to viral engagement
 
 ### Design Department (`design/`)
 - **brand-guardian** - Keep visual identity consistent everywhere
+- **ios-developer** - Build delightful native iOS apps with Swift/SwiftUI
+- **mobile-developer** - Prototype and refine mobile UI flows quickly
+- **sql-pro** - Design schemas and write optimized SQL
+- **typescript-pro** - Level up TypeScript types, APIs, and patterns
 - **ui-designer** - Design interfaces developers can actually build
+- **ui-engineer** - Implement pixel-perfect, accessible UI components
+- **ui-ux-designer** - Blend UX research with UI craft to ship usable designs
 - **ux-researcher** - Turn user insights into product improvements
 - **visual-storyteller** - Create visuals that convert and share
 - **whimsy-injector** - Add delight to every interaction
@@ -129,7 +199,13 @@ contains-studio-agents/
 
 ### Testing & Benchmarking (`testing/`)
 - **api-tester** - Ensure APIs work under pressure
+- **debugger** - Systematically isolate and fix defects
+- **devops-troubleshooter** - Diagnose CI/CD and infrastructure issues
+- **error-detective** - Triage exceptions and trace root causes
+- **incident-responder** - Handle on-call incidents quickly and safely
 - **performance-benchmarker** - Make everything faster
+- **senior-code-reviewer** - Provide rigorous, actionable code reviews
+- **test-automator** - Build reliable automated test suites
 - **test-results-analyzer** - Find patterns in test failures
 - **tool-evaluator** - Choose tools that actually help
 - **workflow-optimizer** - Eliminate workflow bottlenecks
@@ -137,6 +213,8 @@ contains-studio-agents/
 ## 🎁 Bonus Agents
 - **studio-coach** - Rally the AI troops to excellence
 - **joker** - Lighten the mood with tech humor
+- **legal-advisor** - Provide general legal guidance and risk framing (non-binding)
+- **mermaid-expert** - Create clear system and process diagrams with Mermaid
 
 ## 🎯 Proactive Agents
 
@@ -273,7 +351,7 @@ Your goal is to [ultimate objective]. You [key behavior traits]. Remember: [key 
 #### 📂 Department-Specific Guidelines
 
 **Engineering** (`engineering/`): Focus on implementation speed, code quality, testing
-**Design** (`design/`): Emphasize user experience, visual consistency, rapid iteration  
+**Design** (`design/`): Emphasize user experience, visual consistency, rapid iteration
 **Marketing** (`marketing/`): Target viral potential, platform expertise, growth metrics
 **Product** (`product/`): Prioritize user value, data-driven decisions, market fit
 **Operations** (`studio-operations/`): Optimize processes, reduce friction, scale systems
